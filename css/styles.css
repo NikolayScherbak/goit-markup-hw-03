@@ -54,7 +54,6 @@ body {
 .filters-button {
   padding: 0;
   border: 0;
-
   background-color: transparent;
 }
 
@@ -62,14 +61,12 @@ body {
   width: 1px;
   height: 1px;
   margin: -1px;
-
   visibility: hidden;
   position: absolute;
 }
 
 .img {
   display: block;
-
   max-width: 100%;
   height: auto;
 }
@@ -84,12 +81,12 @@ body {
 }
 
 /*? header */
-.hat {
+.header {
   background-color: var(--white-color);
   border-bottom: 1px solid var(--line-header-bottom);
 }
 
-.hat .container {
+.header .container {
   display: flex;
 
   align-items: center;
@@ -112,7 +109,7 @@ body {
   margin-left: 93px;
 }
 
-.hat .logo {
+.header .logo {
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -186,7 +183,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
@@ -196,18 +192,14 @@ body {
 
 .hero-button {
   display: block;
-
   margin: auto;
   min-width: 200px;
   height: 50px;
-
   font-weight: 700;
   line-height: 1.875;
   letter-spacing: 0.06em;
-
   background-color: var(--primary-color);
   color: var(--white-color);
-
   border: 1px solid transparent;
   border-radius: 4px;
 }
@@ -220,11 +212,12 @@ body {
 .features-subtitle {
   text-transform: uppercase;
 }
-
+.section {
+  padding-bottom: var(--section-indent);
+  padding-top: var(--section-indent);
+}
 .features {
   padding-top: 90px;
-  padding-bottom: var(--section-indent);
-
   background-color: var(--white-color);
 }
 
@@ -257,17 +250,13 @@ body {
 }
 
 .doing {
-  padding-bottom: var(--section-indent);
-
   background-color: var(--white-color);
 }
 
 .doing-subtitle {
   margin-bottom: 50px;
-
   font-weight: 700;
   font-size: 36px;
-
   text-align: center;
 }
 
@@ -280,15 +269,11 @@ body {
 }
 
 .team {
-  padding-top: var(--section-indent);
-  padding-bottom: var(--section-indent);
-
   background-color: var(--section-bg);
 }
 
 .team-subtitle {
   margin-bottom: 50px;
-
   font-weight: 700;
   font-size: 36px;
 
@@ -380,9 +365,6 @@ body {
 /*? portfolio.html */
 
 .portfolio {
-  padding-top: var(--section-indent);
-  padding-bottom: var(--section-indent);
-
   background-color: var(--white-color);
 }
 
@@ -400,15 +382,12 @@ body {
 
 .portfolio-button {
   padding: 6px 22px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
-
   background-color: var(--section-bg);
   color: var(--title-color);
-
   border: 1px solid transparent;
   border-radius: 4px;
 }
@@ -421,22 +400,18 @@ body {
 
 .button-all {
   padding: 6px 22px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
-
   background-color: var(--primary-color);
   color: var(--white-color);
-
   border: 1px solid transparent;
   border-radius: 4px;
 }
 
 .project-list {
   display: flex;
-
   margin-left: calc(-1 * var(--card-indent));
   margin-bottom: calc(-1 * var(--card-indent));
 
@@ -446,10 +421,8 @@ body {
 
 .project-item {
   display: flex;
-
   margin-left: var(--card-indent);
   margin-bottom: var(--card-indent);
-
   flex-basis: calc(100% / 3 - var(--card-indent));
 }
 
@@ -462,11 +435,9 @@ body {
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
-
   border-right: 1px solid var(--border-card);
   border-bottom: 1px solid var(--border-card);
   border-left: 1px solid var(--border-card);
-
   background-color: var(--white-color);
 }
 
@@ -483,6 +454,5 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-
   color: var(--text-color);
 }
